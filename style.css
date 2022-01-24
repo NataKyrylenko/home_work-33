@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+textarea {
+  width: 40vw;
+  height: 20vh;
+  border: 2px solid red;
+  padding: 10px;
+  font-size: 18px;
+}
+.editText {
+  font-size: 20px;
+}
+
+caption {
+  margin-top: 30px;
+  color: rgb(0, 94, 0);
+  font-size: 25px;
+}
+th {
+  background-color: rgb(129, 253, 129);
+  font-size: 25px;
+  cursor: pointer;
+}
+td {
+  font-size: 22px;
+  border: 1px solid green;
+  border-radius: 10px;
+  text-align: center;
+}
+td:hover {
+  background-color: rgb(205, 252, 205);
+}
+.textBlock {
+  margin: 25px 0;
+  padding: 10px 20px;
+  background-color: rgb(207, 228, 228);
+  border: 2px solid blue;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  font-size: 25px;
+  line-height: 35px;
+  color: rgb(100, 3, 100);
+}
+
+.newBlock {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: inherit;
+  width: 10px;
+  height: 10px;
+  cursor: se-resize;
+}
